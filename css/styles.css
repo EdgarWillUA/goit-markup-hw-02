@@ -108,7 +108,6 @@ body {
 }
 
 .features-desc {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     color: var(--second-txt-cl);
@@ -140,7 +139,6 @@ body {
 }
 
 .team-role {
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(19 / 16);
     color: var(--second-txt-cl);
@@ -159,7 +157,6 @@ body {
 }
 
 .footer-addres {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     font-style: normal;
@@ -168,7 +165,6 @@ body {
 
 .footer-email,
 .footer-phone {
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     font-style: normal;
@@ -209,7 +205,6 @@ body {
 }
 
 .portfolio-desc {
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(30 / 16);
     color: var(--second-txt-cl);
