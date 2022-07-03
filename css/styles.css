@@ -6,7 +6,7 @@
   /* text color */
   --main-txt-cl: #212121;
   --second-txt-cl: #757575;
-  
+
   /* bg color */
   --dark-bg-color: #2f303a;
   --light-bg-color: #f5f4fa;
@@ -42,24 +42,137 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
 }
 
-.header-link:hover, 
-.header-link:focus {
-    color: #2196f3;
-}
-.header-email .header-phone {
+.header-list-cont {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14)
   letter-spacing: 0.02em;
   color: var(--second-txt-cl);
 }
 
-/* поправить */
-.header-email:hover, 
-.header-phone:focus,
+.header-email:hover,
 .header-email:focus,
-.header-phone.hover {
+.header-phone:hover,
+.header-phone:focus,
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+.header-link-current {
+    color: #2196f3;
+}
+
+/* hero section */
+
+.hero {
+    background-color: var(--dark-bg-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    color: #ffffff;
+}
+
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #2196f3;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #2196f3;
+}
+
+/* features section */
+
+.features-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    color: var(--main-txt-cl);
+
+}
+
+.features-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    color: var(--second-txt-cl);
+}
+
+/* work section */
+
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    color: var(--main-txt-cl);
+}
+
+/* team section */
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    color: var(--main-txt-cl);
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    color: var(--main-txt-cl);
+}
+
+.team-role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    color: var(--second-txt-cl);
+}
+
+/* footer section */
+
+.footer {
+    background-color: var(--dark-bg-color);
+}
+.footer-logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    color: #2196f3;
+}
+
+.footer-addres {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    font-style: normal;
+    color: #ffffff;
+}
+
+.footer-email,
+.footer-phone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-email:hover,
+.footer-phone:hover,
+.footer-email:focus,
+.footer-phone:focus {
     color: #2196f3;
 }
