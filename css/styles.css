@@ -9,7 +9,12 @@
 
   /* bg color */
   --dark-bg-color: #2f303a;
-  --light-bg-color: #f5f4fa;
+
+  /* btn bg color */
+  --btn-bg-color: #f5f4fa;
+
+  /* focus hover color */
+  --hover-txt-color: #2196F3;
 }
 
 body {
@@ -34,7 +39,7 @@ body {
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--main-txt-cl);
 }
 
 .header-item {
@@ -48,7 +53,7 @@ body {
 .header-list-cont {
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14)
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--second-txt-cl);
 }
@@ -59,10 +64,10 @@ body {
 .header-phone:focus,
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+  color: var(--hover-txt-color);
 }
 .header-link-current {
-    color: #2196f3;
+  color: var(--hover-txt-color);
 }
 
 /* hero section */
@@ -150,7 +155,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
-    color: #2196f3;
+    color: #ffffff;
 }
 
 .footer-addres {
@@ -174,5 +179,38 @@ body {
 .footer-phone:hover,
 .footer-email:focus,
 .footer-phone:focus {
-    color: #2196f3;
+    color: var(--hover-txt-color);
+}
+
+
+/* portfolio HTML */
+/* filter section */
+
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    color: var(--main-txt-cl);
+    background-color: var(--btn-bg-color);
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #ffffff;
+    background-color: #2196f3;
+}
+
+.portfolio-project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 /18);
+    color: var(--main-txt-cl);
+}
+
+.portfolio-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    color: var(--second-txt-cl);
 }
