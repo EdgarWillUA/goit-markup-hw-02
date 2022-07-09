@@ -170,20 +170,20 @@ body {
 }
 
 .footer-info {
-    font-style: normal;
+  font-style: normal;
 }
 
 .footer-addres {
   font-size: 14px;
   line-height: calc(24 / 14);
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .footer-email,
 .footer-phone {
   font-size: 14px;
   line-height: 24px;
-    color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-email:hover,
